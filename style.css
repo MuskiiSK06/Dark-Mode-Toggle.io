@@ -118,7 +118,6 @@ p{
 
 .content button:hover{
     background-color: orangered;
-    color: white;
     scale: 1.09;
     transition: 0.3s ease-in-out;
 }
@@ -131,7 +130,7 @@ body.dark li{
     color: white;
 }
 
-body.dark > li:hover{
+body.dark li:hover{
     color: orangered;
 }
 
@@ -161,7 +160,7 @@ body.dark .content button{
     color: black;
 }
 
-body.dark > button:hover{
+body.dark .content button:hover{
     background-color: orangered;
     color: white;
 }
