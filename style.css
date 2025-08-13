@@ -160,7 +160,7 @@ body.dark .content button{
     color: black;
 }
 
-body.dark .content button:hover{
+body.dark button:hover{
     background-color: orangered;
     color: white;
 }
