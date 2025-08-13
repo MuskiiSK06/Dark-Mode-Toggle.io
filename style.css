@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    color: black;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container{
+    /* padding: 10px; */
+    height: 100vh;
+}
+
+.navigation{
+    height: 50px;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3{
+    color: orangered;
+    font-family: sans-serif;
+}
+
+nav{
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+    margin-right: 40px;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+li:hover{
+    color: orangered;
+    scale: 1.1;
+    transition: 0.3s ease-in-out;
+}
+
+#moon-icon{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.hero-section{
+    max-height: 100%;
+    max-width: 100%;
+    padding: 70px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-section img{
+    height: 250px;
+    width: 250px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.content{
+    margin-top: 20px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    color: var(--primary-color);
+}
+
+span{
+    color: orangered;
+    text-decoration: 2px underline black;
+    text-underline-offset: 3px;
+}
+
+p{
+    text-align: center;
+    width: 300px;
+    max-width: 100%;
+    margin-top: 10px;
+    word-spacing: 2px;
+}
+
+.content button{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.content button:hover{
+    background-color: orangered;
+    scale: 1.09;
+    transition: 0.3s ease-in-out;
+}
+
+body.dark{
+    background-color: black;
+}
+
+body.dark li{
+    color: white;
+}
+
+body.dark #dark-toggle{
+    background-color: grey;
+    color: black;
+}
+
+body.dark img{
+    border-color: rgb(246, 245, 245);
+}
+
+body.dark h1{
+    color: white;
+}
+
+body.dark span{
+    text-decoration-color: white;
+}
+
+body.dark p{
+    color: white;
+}
+
+body.dark .content button{
+    background-color: gray;
+    color: black;
+}
+
+@media (max-width: 480px){
+    h3{
+        font-size: 16px;
+    }
+    li{
+        font-size: 15px;
+        margin-right: 30px;
+    }
+}
