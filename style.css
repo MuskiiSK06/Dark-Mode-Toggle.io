@@ -130,6 +130,10 @@ body.dark li{
     color: white;
 }
 
+body.dark li:hover{
+    color: orangered;
+}
+
 body.dark #dark-toggle{
     background-color: grey;
     color: black;
@@ -154,6 +158,11 @@ body.dark p{
 body.dark .content button{
     background-color: gray;
     color: black;
+}
+
+body.dark .content button:hover{
+    background-color: orangered;
+    color: white;
 }
 
 @media (max-width: 480px){
